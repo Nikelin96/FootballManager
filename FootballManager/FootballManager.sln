@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManagerBL", "FootballManagerBL\FootballManagerBL.csproj", "{49D5B1AF-94AF-4E74-AB09-BCA75185D3EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManagerSL", "FootballManagerSL\FootballManagerSL.csproj", "{439EB090-8ED5-497E-90CF-B4AF1C5D2AC2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManagerPL", "FootballManagerPL\FootballManagerPL.csproj", "{D5E00582-81C2-4DA3-8BFE-1E09C0193AFA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{49D5B1AF-94AF-4E74-AB09-BCA75185D3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D5B1AF-94AF-4E74-AB09-BCA75185D3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D5B1AF-94AF-4E74-AB09-BCA75185D3EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{439EB090-8ED5-497E-90CF-B4AF1C5D2AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{439EB090-8ED5-497E-90CF-B4AF1C5D2AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{439EB090-8ED5-497E-90CF-B4AF1C5D2AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{439EB090-8ED5-497E-90CF-B4AF1C5D2AC2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5E00582-81C2-4DA3-8BFE-1E09C0193AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5E00582-81C2-4DA3-8BFE-1E09C0193AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5E00582-81C2-4DA3-8BFE-1E09C0193AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5E00582-81C2-4DA3-8BFE-1E09C0193AFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
