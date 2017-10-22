@@ -1,0 +1,54 @@
+Develop a C# Asp.net WebApi or Asp.net Core
+application that manages football teams
+There should be 3 domain entities in the application:
+class Player
+{
+Guid Id;
+string Name;
+DateTime Birthday;
+}
+class Team
+{
+Guid Id;
+string Name;
+DateTime FoundationDate;
+}
+enum PlayerPosition
+{
+Goalkeeper, Back, Midfield, Forward
+}
+Implement API methods:
+- get all teams
+- get all team players
+- add a player to a team
+- update position of a player in a team
+- delete a player from a team
+All data and relationships should be read and written to the MS SQL database using Entity
+Framework.
+Create a Bootstrap based website that calls above
+mentioned API methods asynchronously
+Must have features for the website are:
+- list of teams
+- list of players in a team
+- add a player with position to a team
+- update position of a player in a team
+- remove a player from a team
+A player can belong to more than one team.
+A player cannot take more than one position in a team.
+Would be nice to have:
+- Unittests to test API methods
+- create unittest code to be ran by either NUnit or MSTest
+- if you're not familiar with NUnit or MSTest, it's OK to write your own simple test
+client app or just describe the test cases
+- Sleek UI. We know, there are almost no people that are equally good at both frontend
+and backend. But who knows, maybe you love it as much as we do.
+Extra remarks:
+- do not over-abstract the code
+- consider using Onion Architecture
+- use separate DTO for transferring domain entities
+- use the Force, Luke/Leia
+In case of unclarities, please document them along with the assumptions and decisions you
+have made while designing the application. You may want to put them in the email you will send
+back to us.
+Please use Github repository to share your solution with us.
+Good luck!
